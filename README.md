@@ -6,7 +6,7 @@ Here are a few games I asked Claude to remake on the PSVita. Everything is compl
 - **Survivor.io Vita** – offline horde-survival action
 - **AC-130 Spectre** – 3D thermal-view gunship shooter
 - **Stairway to Heaven** – round-based zombies FPS
-- **Quilt Cats** – pastel cat game: tap to nap
+- **Quilt Cats** – cozy cat logic puzzle
 
 Install any of them by copying the `.vpk` from [`downloads/`](downloads/) to your Vita and installing it with VitaShell.
 
