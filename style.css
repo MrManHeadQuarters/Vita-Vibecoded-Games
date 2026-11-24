@@ -59,6 +59,16 @@ table.kv td:first-child{color:var(--muted);padding-right:14px;white-space:nowrap
 .btn span{opacity:.7;font-weight:700}
 .btn:hover{filter:brightness(1.1)}
 .btn.off{background:var(--panel2);color:var(--muted);border:1px dashed var(--line);cursor:default}
+.btn.alt{background:transparent;color:var(--text);border:1px solid var(--accent)}
+.btn.alt:hover{background:rgba(255,255,255,.06)}
+.side .btn{margin-right:6px}
+.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:22px 0 10px}
+.cta-row .btn{margin-top:0;font-size:16px;padding:13px 22px}
+.fb-row{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.fb-name{display:flex;align-items:center;gap:14px;font-size:17px}
+.fb-name img{width:48px;height:48px;border-radius:12px}
+.fb-links{display:flex;gap:10px;flex-wrap:wrap}
+.fb-links .btn{margin-top:0;margin-right:0}
 .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:10px}
 .shot.has{display:block;aspect-ratio:auto;border:1px solid var(--line);overflow:hidden;text-decoration:none;transition:border-color .15s}
 .shot.has:hover{border-color:var(--accent)}

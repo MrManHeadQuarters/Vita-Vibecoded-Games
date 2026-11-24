@@ -1,0 +1,63 @@
+{
+  "name": "Bug report",
+  "description": "Something crashed, froze or doesn't look right",
+  "title": "[Bug] ",
+  "labels": [
+    "bug"
+  ],
+  "body": [
+    {
+      "type": "dropdown",
+      "id": "game",
+      "attributes": {
+        "label": "Which game?",
+        "options": [
+          "Survivor.io Vita",
+          "AC-130 Spectre",
+          "Stairway to Heaven",
+          "Quilt Cats",
+          "The website"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "what",
+      "attributes": {
+        "label": "What happened?",
+        "description": "Tell us what you saw and what you expected. Screenshots are welcome: drag them into this box."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "How can we make it happen again?",
+        "placeholder": "1. Start a new run\n2. Open the gear menu\n3. ..."
+      }
+    },
+    {
+      "type": "input",
+      "id": "device",
+      "attributes": {
+        "label": "Your Vita",
+        "description": "Model and firmware version",
+        "placeholder": "e.g. Vita Slim (PCH-2000), firmware 3.74"
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "Game file or version",
+        "placeholder": "e.g. StairwayToHeaven_build35.vpk"
+      }
+    }
+  ]
+}
