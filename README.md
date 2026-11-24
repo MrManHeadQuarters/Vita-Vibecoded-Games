@@ -3,7 +3,6 @@ Here are a few games I asked Claude to remake on the PSVita. Everything is compl
 
 ## Games
 
-- **Vita Bowl** – Retro Bowl-style arcade football
 - **Survivor.io Vita** – offline horde-survival action
 - **AC-130 Spectre** – 3D thermal-view gunship shooter
 - **Stairway to Heaven** – round-based zombies FPS
